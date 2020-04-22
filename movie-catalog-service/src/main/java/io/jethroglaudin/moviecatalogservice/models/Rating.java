@@ -1,8 +1,12 @@
 package io.jethroglaudin.moviecatalogservice.models;
 
-public class Rating {
+public class  Rating {
     private String  movieId;
     private int rating;
+
+    public Rating() {
+
+    }
 
     public Rating(String movieId, int rating) {
         this.movieId = movieId;
