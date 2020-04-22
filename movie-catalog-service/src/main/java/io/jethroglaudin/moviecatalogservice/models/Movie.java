@@ -1,4 +1,4 @@
-package io.jethroglaudin.movieinfoservice.models;
+package io.jethroglaudin.moviecatalogservice.models;
 
 public class Movie {
     private String movieId;
@@ -7,6 +7,10 @@ public class Movie {
     public Movie(String movieId, String name) {
         this.movieId = movieId;
         this.name = name;
+    }
+
+    public Movie() {
+
     }
 
     public String getMovieId() {

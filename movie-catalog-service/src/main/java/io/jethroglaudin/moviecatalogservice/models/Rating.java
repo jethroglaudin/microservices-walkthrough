@@ -1,4 +1,4 @@
-package io.jethroglaudin.ratingsdataservice.model;
+package io.jethroglaudin.moviecatalogservice.models;
 
 public class Rating {
     private String  movieId;
